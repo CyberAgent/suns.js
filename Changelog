@@ -1,4 +1,9 @@
 Changelog
 
+*Tue Aug 13 2013 Kei FUNAGAYAMA <funagayama_kei@cyberagent.co.jp> - 0.4.6
+ - Change: uglify-js change build option.
+ - Add: version print.
+ - Update: jshint change options.
+
 *Wed May  1 2013 Kei FUNAGAYAMA <funagayama_kei@cyberagent.co.jp> - 0.4.5
  - first release.

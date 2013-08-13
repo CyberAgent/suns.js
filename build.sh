@@ -10,13 +10,18 @@ popd >/dev/null 2>&1
 
 
 __uglify="${__script_dir}/node_modules/uglify-js/bin/uglifyjs"
-__hint="${__script_dir}/node_modules/jshint/bin/hint"
+__hint="${__script_dir}/node_modules/jshint/bin/jshint"
 __jsdoc="${__script_dir}/node_modules/jsdoc/jsdoc"
 __src="${__script_dir}/suns.js"
 __min="${__script_dir}/suns.min.js"
 
 [ ! -f ${__uglify} ] && echo "error: uglify command not found. please $ npm install ." && exit 1
 [ ! -f ${__hint} ] && echo "error: jshint command not found. please $ npm install ." && exit 1
+
+#
+# set version
+#
+./setver
 
 #
 # jshint
@@ -48,7 +53,7 @@ echo " * @overview Async chain utility for browser and node.js" >> ${__min}
 echo " */" >> ${__min}
 
 
-${__uglify} ${__src} >> ${__min}
+${__uglify} ${__src} -m -c unused=false >> ${__min}
 [ $? -ne 0 ] && echo "error: uglify running error." && exit 1
 
 echo "info: output -> ${__min}"

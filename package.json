@@ -1,8 +1,13 @@
 {
     "name": "suns",
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Utilities for node and browser (amd support)",
-    "keywords": ["browser", "node", "extend", "utility"],
+    "keywords": [
+        "browser",
+        "node",
+        "extend",
+        "utility"
+    ],
     "homepage": "https://github.com/CyberAgent/suns.js",
     "bugs": {
         "email": "shibucafe@cyberagent.co.jp",
@@ -13,11 +18,13 @@
         "email": "mishimagi_kazuma@cyberagent.co.jp",
         "url": "https://github.com/maginemu"
     },
-    "contributors": [{
-        "name": "Kei Funagayama",
-        "email": "funagayama_kei@cyberagent.co.jp",
-        "url": "https://github.com/fkei"
-    }],
+    "contributors": [
+        {
+            "name": "Kei Funagayama",
+            "email": "funagayama_kei@cyberagent.co.jp",
+            "url": "https://github.com/fkei"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/CyberAgent/suns.js.git"

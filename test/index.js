@@ -27,6 +27,9 @@
         it('is an object', function () {
             suns.should.be.a('object');
         });
+        it('version', function () {
+            suns.VERSION.should.be.ok;
+        });
     });
 
     describe('normal extending', function () {
