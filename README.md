@@ -142,3 +142,7 @@ CyberAgent, Inc. All rights reserved.
 # License
 
 MIT @see https://github.com/CyberAgent/suns.js/blob/master/LICENSE
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/CyberAgent/suns.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
