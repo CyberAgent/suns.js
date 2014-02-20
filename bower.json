@@ -1,0 +1,42 @@
+{
+  "name": "suns.js",
+  "version": "0.4.6",
+  "keywords": [
+    "browser",
+    "node",
+    "extend",
+    "utility"
+  ],
+  "readmeFilename": "README.md",
+  "main": [
+    "suns.js",
+    "suns.min.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "Changelog",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "bower.json",
+    "build.sh",
+    "component.json",
+    "docs",
+    "node_modules",
+    "package.json",
+    "setver",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyberAgent/suns.js.git"
+  },
+  "homepage": "https://github.com/CyberAgent/suns.js.git",
+  "authors": [
+    "CyberAgent, Inc <npm@cyberagent.co.jp>",
+    "Kazuma Mishimagi <mishimagi_kazuma@cyberagnet.co.jp>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}
