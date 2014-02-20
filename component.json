@@ -1,0 +1,23 @@
+{
+  "name": "suns.js",
+  "repo": "CyberAgent/suns.js",
+  "description": "Utilities for node and browser (amd support)",
+  "version": "0.4.6",
+  "keywords": [
+    "browser",
+    "node",
+    "extend",
+    "utility"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": [
+    "suns.js",
+    "suns.min.js"
+  ],
+  "scripts": [
+    "suns.js",
+    "suns.min.js"
+  ]
+}
